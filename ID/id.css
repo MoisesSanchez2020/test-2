@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  /*
+  .container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #da0b0b;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25px;
+   
+  }*/
+
+
+  .container {
+    flex: 0 1 50%;  /* Changed this line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #da0b0b;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+
+  .id-card {
+    display: none;
+  }
+  .name,
+  .desi,
+  .no,
+  .address {
+    color: white;
+    font-weight: bold;
+  }
+
+  
+  /* Your existing CSS rules here */
+  /*
+  footer {
+    height: 50px; /* Adjust the height value as needed */
+   /* background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #004466;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      height: 130vh;
+    }
+  
+    .container .front {
+      margin-top: 50px;
+    }
+  
+    body.id-card.show {
+      display: none;
+    }
+  
+    body.id-card.show header,
+    body.id-card.show nav,
+    body.id-card.show .container:not(:last-child),
+    body.id-card.show footer {
+      display: none;
+    }
+  }*/
+  
+  .name {
+    margin-bottom: 10px;
+  }
+  
+  .address {
+    margin-top: 10px;
+  }
+  
+  .font {
+    height: 375px;
+    width: 250px;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .top {
+    height: 30%;
+    width: 100%;
+    background-color: #636060;
+    position: relative;
+    z-index: 5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+
+
+  
+  .bottom {
+    height: 70%;
+    width: 100%;
+    background-color:#7e7e7d ;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .top img {
+    height: 100px;
+    width: 100px;
+    background-color: #e6ebe0;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 75px;
+  }
+  
+  .id-card {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .id-card.show {
+    display: block;
+    
+  }
+  
+  .bottom p {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    text-emphasis: spacing;
+  }
+  
+  .bottom .desi {
+    font-size: 12px;
+    color: grey;
+    font-weight: normal;
+  }
+  
+  .bottom .no {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  
+  .barcode img {
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .barcode {
+    text-align: center;
+    position: relative;
+    top: 70px;
+  }
+  
+  .back {
+    display: none; /* Hide by default */
+    height: 375px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #636060;
+    position: absolute;
+    top: calc(50% + 187.5px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .back.show {
+    display: block;
+  }
+  
+  .qr img {
+    height: 80px;
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+  }
+  
+  .Details {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .details-info {
+    color: white;
+    text-align: left;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+  
+  .logo {
+    height: 40px;
+    width: 150px;
+    padding: 40px;
+  }
+  
+  .logo img {
+    height: 100%;
+    width: 100%;
+    color: white;
+  }
+  
+  .padding {
+    padding-right: 20px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .container {
+      height: 130vh;
+    }
+  
+    .container .front {
+      margin-top: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      height: 130vh;
+    }
+  
+    .container .front {
+      margin-top: 50px;
+    }
+  
+    body.id-card.show {
+      display: none;
+    }
+  
+    body.id-card.show header,
+    body.id-card.show nav,
+    body.id-card.show .container:not(:last-child),
+    body.id-card.show footer {
+      display: none;
+    }
+  }
+    /*   card flip  */
+
+  
+  

@@ -1,0 +1,125 @@
+{
+    "results": [
+      {
+        "id": "1a3f4c",
+        "name": "Moises Roberto",
+        "last_name": "Sanchez",
+        "address": "123 Main Street, Anytown, USA",
+        "country": "USA",
+        "phone_number": "123-456-7890",
+        "avatar": "https://www.gannett-cdn.com/media/USATODAY/None/2014/10/09/635484412619522719-D06-John-Lennon-older-07.jpg?width=390&format=pjpg&auto=webp&quality=70",
+        "date_of_birth": "1990-01-01",
+        "driver_license": "A123456789",
+        "social_media": "john_doe"
+      },
+      {
+        "id": "2b5e6d",
+        "name": "Jane Doe",
+        "last_name": "Jones",
+        "address": "456 Elm Street, Anytown, USA",
+        "country": "USA",
+        "phone_number": "555-678-9012",
+        "avatar": "https://img.freepik.com/free-vector/mysterious-mafia-man-smoking-cigarette_52683-34828.jpg?w=1800&t=st=1685143220~exp=1685143820~hmac=d6b4f72b8e9bac79d40ec51724ac34e6e205863ddac54500e2afa1bf1aa6b68f",
+        "date_of_birth": "1985-05-10",
+        "driver_license": "B987654321",
+        "social_media": "jane_doe"
+      },
+      {
+        "id": "3c7g8h",
+        "name": "Michael Johnson",
+        "last_name": "Brown",
+        "address": "789 Oak Avenue, Anytown, USA",
+        "country": "USA",
+        "phone_number": "111-222-3333",
+        "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/original/beautiful-woman-avatar-character-icon-free-vector.jpg",
+        "date_of_birth": "1992-07-15",
+        "driver_license": "C543216789",
+        "social_media": "michael_j"
+      },
+      {
+        "id": "4d9i0j",
+        "name": "Emily Davis",
+        "last_name": "Wilson",
+        "address": "987 Pine Road, Anytown, USA",
+        "country": "USA",
+        "phone_number": "444-555-6666",
+        "avatar": "https://static.vecteezy.com/system/resources/thumbnails/006/487/912/small_2x/hacker-avatar-ilustration-free-vector.jpg",
+        "date_of_birth": "1998-12-30",
+        "driver_license": "D987654321",
+        "social_media": "emily_d"
+      },
+      {
+        "id": "5e1k2l",
+        "name": "Robert Taylor",
+        "last_name": "Thomas",
+        "address": "654 Maple Lane, Anytown, USA",
+        "country": "USA",
+        "phone_number": "777-888-9999",
+        "avatar": "https://static.vecteezy.com/ti/vetor-gratis/t1/6487917-homem-avatar-icone-gratis-vetor.jpg",
+        "date_of_birth": "1991-08-20",
+        "driver_license": "E123456789",
+        "social_media": "robert_t"
+      },
+      {
+        "id": "6f3m4n",
+        "name": "Jessica Anderson",
+        "last_name": "Lee",
+        "address": "321 Cedar Court, Anytown, USA",
+        "country": "USA",
+        "phone_number": "000-111-2222",
+        "avatar": "https://cutewallpaper.org/26/avatar-images-free-download/user-avatar-png-free-download.png",
+        "date_of_birth": "1989-04-05",
+        "driver_license": "F987654321",
+        "social_media": "jessica_a"
+      },
+      {
+        "id": "7g5o6p",
+        "name": "David Martinez",
+        "last_name": "Harris",
+        "address": "876 Birch Avenue, Anytown, USA",
+        "country": "USA",
+        "phone_number": "333-444-5555",
+        "avatar": "https://static.vecteezy.com/ti/vetor-gratis/t1/6487917-homem-avatar-icone-gratis-vetor.jpg",
+        "date_of_birth": "1993-11-12",
+        "driver_license": "G123456789",
+        "social_media": "david_m"
+      },
+      {
+        "id": "8h7q9r",
+        "name": "Sarah Clark",
+        "last_name": "Taylor",
+        "address": "543 Oak Street, Anytown, USA",
+        "country": "USA",
+        "phone_number": "666-777-8888",
+        "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/original/beautiful-woman-avatar-character-icon-free-vector.jpg",
+        "date_of_birth": "1994-09-25",
+        "driver_license": "H987654321",
+        "social_media": "sarah_c"
+      },
+      {
+        "id": "9i0s1t",
+        "name": "Christopher Anderson",
+        "last_name": "Brown",
+        "address": "210 Elm Road, Anytown, USA",
+        "country": "USA",
+        "phone_number": "999-000-1111",
+        "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/original/beautiful-woman-avatar-character-icon-free-vector.jpg",
+        "date_of_birth": "1987-06-17",
+        "driver_license": "I123456789",
+        "social_media": "chris_a"
+      },
+      {
+        "id": "0j2u3v",
+        "name": "Ashley Walker",
+        "last_name": "Moore",
+        "address": "987 Pine Avenue, Anytown, USA",
+        "country": "USA",
+        "phone_number": "222-333-4444",
+        "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/original/beautiful-woman-avatar-character-icon-free-vector.jpg",
+        "date_of_birth": "1996-03-08",
+        "driver_license": "J987654321",
+        "social_media": "ashley_w"
+      }
+    ]
+  }
+  
