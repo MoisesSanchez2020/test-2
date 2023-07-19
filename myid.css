@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .id-card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .field {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .field-label {
+    flex-basis: 120px;
+    font-weight: bold;
+  }
+  
+  .field-value {
+    flex-grow: 1;
+  }
+  .qr-code {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .qr-code-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
