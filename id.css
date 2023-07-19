@@ -340,8 +340,21 @@ input {
 
 #cardback .st12 {
 }
+
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    /* More CSS rules to adjust styles for screen width up to 600px */
+  }
+  
+
+
+
  
-* iPads (portrait and landscape) */
+/* iPads (portrait and landscape) */
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
