@@ -341,3 +341,54 @@ input {
 #cardback .st12 {
 }
  
+* iPads (portrait and landscape) */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .form-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+            "name"
+            "number"
+            "expiration"
+            "security";
+    }
+
+    .creditcard #picture,
+    .creditcard #qrcode {
+        /* Update the size and position of images to fit well on iPad size */
+    }
+}
+
+/* Small desktops and laptops */
+@media only screen and (min-width: 1025px) {
+    .form-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+            "name number"
+            "expiration security";
+    }
+
+    .creditcard #picture,
+    .creditcard #qrcode {
+        /* Update the size and position of images to fit well on small desktop and laptop size */
+    }
+}
+
+/* Large desktops and monitors */
+@media only screen and (min-width: 1200px) {
+    .form-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+            "name number"
+            "expiration security";
+    }
+
+    .creditcard #picture,
+    .creditcard #qrcode {
+        /* Update the size and position of images to fit well on large desktop and monitor size */
+    }
+}
